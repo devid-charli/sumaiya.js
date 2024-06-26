@@ -1,0 +1,115 @@
+@mediascreen {(max-width: 400px; and min-width: 1024px;)
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb(230, 151, 190);
+}
+header{
+    width: 100%;
+    margin: 5px auto;
+    background:radial-gradient(rgb(119, 31, 75),rgb(230, 151, 190));
+    color: blue;
+}
+.si{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 0% auto;
+}
+.si ul{
+list-style: none;
+}
+.si ul li{
+    height: 50px;
+    width: 70px;
+    border: 3px double chartreuse;
+    background-color: red;
+    text-align: center ;
+    color: black;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 20px;
+    position: relative;
+}
+.si ul li:hover{
+    background-color: white;
+    color: blue;
+}
+.si ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.si ul ul{
+    display: none;
+}
+.si ul li :hover>ul{
+    display: block;
+}
+.si button{
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    margin: 0% auto;
+    background-color: beige;
+    
+}
+form{height: 500px;
+    width: 500px;
+    color: rgb(166, 139, 105);
+    margin: 10% auto;
+    background: linear-gradient (to right up  rgb(170, 61, 61), rgb(226, 203, 203));
+    border: 10px double rgb(0, 7, 2);
+    text-align: center;
+}
+form h1{
+    font-size: 50px;
+    padding: 15px;
+    color: rgb(255, 0, 208);
+}
+from h1 input{
+    background-color: rgb(110, 21, 40);
+    margin: 20px auto;
+    padding: 5px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(203, 125, 30);
+    color: rgb(138, 43, 226);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+.sumaiya{
+    font-size: 50px;
+    margin: 5px;
+    background-color: rgb(49, 110, 110);
+    color: rgb(243, 143, 12);
+
+}
+.img img{
+    padding: 5%;
+    height: 100px;
+    width: 100px;
+    margin: 2px auto;
+    text-align: center;
+}
+table{
+    color: rgb(76, 76, 99);
+    background-color: rgb(246, 237, 237);
+    height: 100px;
+    width: 150px;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+}

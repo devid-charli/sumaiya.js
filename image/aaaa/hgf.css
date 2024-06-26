@@ -1,0 +1,18 @@
+.Blue{
+    height: 300px; width: 200px;
+    float: right;
+
+}
+p{
+    background-image: url(Butterfly.png);
+}
+h1::first-letter{
+    color: brown;
+    text-align: center;
+
+}
+
+
+
+
+
